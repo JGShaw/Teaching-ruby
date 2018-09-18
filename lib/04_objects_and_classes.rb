@@ -1,4 +1,8 @@
+require_relative './vehicle_helper'
+
 class Car
+  include Vehicle
+
   attr_reader :name
 
   def initialize(name, engine_size)

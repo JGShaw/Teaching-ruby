@@ -14,3 +14,8 @@ puts "Each loop"
 array.each do |item|
   puts item
 end
+
+
+maps
+
+reduce

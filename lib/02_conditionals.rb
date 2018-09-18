@@ -1,9 +1,7 @@
 if 1 == 2
   puts "Do not print this"
   puts "Or this"
-end
-
-if 3 < 4
+else
   puts "Print this"
 end
 
