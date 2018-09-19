@@ -6,4 +6,12 @@
 # of both three and five print “FizzBuzz”
 #
 
+(1..100).each do |num|
+  output = ""
+  output += "Fizz" if num % 3 == 0
+  output += "Buzz" if num % 5 == 0
 
+  output = num if output.empty?
+
+  puts output
+end
